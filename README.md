@@ -47,7 +47,7 @@ Each factor was analyzed individually to understand its relationship with churn.
 
 ---
 
-## Analysis and Results
+## Key Insights
 
 The analysis shows that not all customer behaviors have the same impact on churn.
 
@@ -59,17 +59,11 @@ In contrast, engagement metrics such as login activity showed only a small diffe
 
 Overall, the results suggest that customer experience and value are more important drivers of retention than activity or marketing engagement alone.
 
----
-
-## Key Insights
-
-The results suggest that improving customer satisfaction should be a top priority for reducing churn. Since satisfaction shows the strongest relationship with retention, efforts such as better customer support, faster issue resolution, and improved user experience are likely to have the most impact.
+The findings also suggest that improving customer satisfaction should be a top priority for reducing churn. Since satisfaction shows the strongest relationship with retention, efforts such as better customer support, faster issue resolution, and improved user experience are likely to have the most impact.
 
 Focusing on high-value customers is also important. Customers who generate more revenue tend to stay longer, which suggests that retention strategies should prioritize these segments through personalized engagement or loyalty initiatives.
 
 In contrast, increasing activity or engagement alone may not be enough to reduce churn. Similarly, discounts and marketing efforts do not appear to have a strong influence on retention, indicating that these strategies may be more effective for acquisition rather than long-term retention.
-
-Overall, the findings highlight that customer experience and value should be the primary focus when designing strategies to improve retention.
 
 ---
 
@@ -88,12 +82,7 @@ Additional visualizations are available in the `images/` folder.
 ---
 
 ## Machine Learning
-
 To further support the analysis, a logistic regression model was used to predict customer churn based on key variables identified earlier.
-
----
-
-## Machine Learning Insights
 
 The model achieved relatively high overall accuracy, but struggled to correctly identify churned customers due to the imbalance in the dataset.
 
